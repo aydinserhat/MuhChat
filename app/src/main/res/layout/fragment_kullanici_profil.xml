@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment.KullaniciProfilFragment">
+
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:src="@drawable/profil"
+        app:civ_border_color="#000000"
+        app:civ_border_width="2dp" />
+
+    <EditText
+        android:id="@+id/kullaniciismi"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:enabled="true"
+        android:hint="İsim-Soyisim"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:text="Temel Bilgiler"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/okul_numarasi"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="30dp"
+        android:enabled="true"
+        android:hint="Okul Numarası"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/bolum"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="30dp"
+        android:enabled="true"
+        android:hint="Bölüm"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/sinif"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="30dp"
+        android:enabled="true"
+        android:hint="Sınıf"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/hakkinda"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="30dp"
+        android:enabled="true"
+        android:hint="Hakkımda"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/cinsiyet"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="30dp"
+        android:enabled="true"
+        android:hint="Cinsiyet"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/bilgiguncelle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#483248"
+        android:text="Bilgi güncelle"
+        android:textColor="#f9f6f6"
+        android:textSize="15sp" />
+
+</LinearLayout>

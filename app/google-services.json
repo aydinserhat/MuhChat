@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "863722359273",
+    "project_id": "muhchat-63da9",
+    "storage_bucket": "muhchat-63da9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:863722359273:android:dadb78ea1ea22ea56d2378",
+        "android_client_info": {
+          "package_name": "com.aydinserhatseyitoglu.muhchat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMJnQNZZ5fLceunlMQ4aFbIVcdTo3M-R0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
